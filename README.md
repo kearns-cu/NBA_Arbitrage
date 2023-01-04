@@ -16,20 +16,18 @@
 ## Running the Python file
 1. Make sure you have Python, MySQL, and the required libraries installed.
 2. Set the database connection parameters in the code, such as the host, port, username, and password. You can modify the following lines to specify your 
-'''SQL
 MySQL credentials:
 
-Copy code
-# Define mydb Connection
-mydb = mysql.connector.connect(user='root',
-                               password='Rja181029!',
-                               host='localhost',
-                               database='sportsodds')
-cursor = mydb.cursor()
-Run the Python file by using the following command:
-Copy code
-python filename.py
-'''
+3. Copy code
+  Define mydb Connection
+  mydb = mysql.connector.connect(user='root',
+                                 password='',
+                                 host='localhost',
+                                 database='sportsodds')
+  cursor = mydb.cursor()
+  Run the Python file by using the following command:
+  Copy code
+  python filename.py
 3. Wait for the code to execute, and follow the prompts to select an option from the menu.
 
 
