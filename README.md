@@ -14,14 +14,22 @@
 7. Wait for the import to complete, and check the results in the Messages pane.
 
 ## Running the Python file
-1. Open the Python file in your preferred code editor.
+1. Make sure you have Python, MySQL, and the required libraries installed.
+2. Set the database connection parameters in the code, such as the host, port, username, and password. You can modify the following lines to specify your 
+'''SQL
+MySQL credentials:
 
-2. Make sure you have the required dependencies installed. You can check the requirements.txt file for a list of the libraries needed to run the code.
+Copy code
+# Define mydb Connection
+mydb = mysql.connector.connect(user='root',
+                               password='Rja181029!',
+                               host='localhost',
+                               database='sportsodds')
+cursor = mydb.cursor()
+Run the Python file by using the following command:
+Copy code
+python filename.py
+'''
+3. Wait for the code to execute, and follow the prompts to select an option from the menu.
 
-3. Set the database connection parameters in the code, such as the host, port, username, and password.
 
-4. Run the Python file by pressing F5 or by using the Run > Run menu.
-
-5. Wait for the code to execute, and check the output in the console or in the specified output files.
-
-6. If you encounter any errors or issues, check the logs and debug the code as needed.
