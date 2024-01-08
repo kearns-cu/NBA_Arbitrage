@@ -1,3 +1,8 @@
+# NBA Moneyline Arbitrage Calculator
+
+## Wireframe
+<img width="535" alt="Screenshot 2024-01-08 at 11 48 49 AM" src="https://github.com/kearns-cu/NBA_Arbitrage/assets/90280289/5b7d3fab-8fa0-4a9f-8cc4-3e02b0a04b10">
+
 ## Importing CSV files into DataGrip
 1. Open DataGrip and connect to your database.
 
